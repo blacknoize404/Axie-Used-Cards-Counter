@@ -3,7 +3,7 @@ const nodes = document.querySelectorAll('.grid-item')
 function select(element) {
 
   var div = element.target
-  console.log(div.classList)
+  // console.log(div.classList)
   if (div.classList.contains("selected")) {
 
     div.classList.remove("selected");
@@ -12,7 +12,7 @@ function select(element) {
 
     div.classList.add("selected");
   }
-  console.log('Hiciste click en el elemento ' + div.innerText);
+  // console.log('Hiciste click en el elemento ' + div.innerText);
 }
 
 function unselect_all() {
