@@ -9,7 +9,6 @@ function select(element) {
     div.classList.remove("selected");
   }
   else {
-
     div.classList.add("selected");
   }
   // console.log('Hiciste click en el elemento ' + div.innerText);
